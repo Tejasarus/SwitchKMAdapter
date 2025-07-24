@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Tejas\Documents\Projects\KeyboardMouseOnSwitch - Copy\PicoSwitch-WirelessGamepadAdapter"
+CMAKE_SOURCE_DIR = C:\Users\Tejas\Documents\Projects\KeyboardMouseOnSwitch\SwitchKMAdapter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Tejas\Documents\Projects\KeyboardMouseOnSwitch - Copy\PicoSwitch-WirelessGamepadAdapter"
+CMAKE_BINARY_DIR = C:\Users\Tejas\Documents\Projects\KeyboardMouseOnSwitch\SwitchKMAdapter
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Tejas\Documents\Projects\KeyboardMouseOnSwitch - Copy\PicoSwitch-WirelessGamepadAdapter\CMakeFiles" "C:\Users\Tejas\Documents\Projects\KeyboardMouseOnSwitch - Copy\PicoSwitch-WirelessGamepadAdapter\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Tejas\Documents\Projects\KeyboardMouseOnSwitch\SwitchKMAdapter\CMakeFiles C:\Users\Tejas\Documents\Projects\KeyboardMouseOnSwitch\SwitchKMAdapter\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Tejas\Documents\Projects\KeyboardMouseOnSwitch - Copy\PicoSwitch-WirelessGamepadAdapter\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Tejas\Documents\Projects\KeyboardMouseOnSwitch\SwitchKMAdapter\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named KeyboardSwitch
+# Target rules for targets named SwitchKMAdapter
 
 # Build rule for target.
-KeyboardSwitch: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 KeyboardSwitch
-.PHONY : KeyboardSwitch
+SwitchKMAdapter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SwitchKMAdapter
+.PHONY : SwitchKMAdapter
 
 # fast build rule for target.
-KeyboardSwitch/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/build
-.PHONY : KeyboardSwitch/fast
+SwitchKMAdapter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/build
+.PHONY : SwitchKMAdapter/fast
 
 #=============================================================================
 # Target rules for targets named bs2_default
@@ -193,36 +193,12 @@ bluepad32/fast:
 	$(MAKE) $(MAKESILENT) -f libbluepad32\CMakeFiles\bluepad32.dir\build.make libbluepad32/CMakeFiles/bluepad32.dir/build
 .PHONY : bluepad32/fast
 
-0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.obj: 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj
-.PHONY : 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.obj
-
-# target to build an object file
-0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj
-.PHONY : 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj
-
-0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.i: 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.i
-.PHONY : 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.i
-
-# target to preprocess a source file
-0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.i
-.PHONY : 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.i
-
-0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.s: 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.s
-.PHONY : 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.s
-
-# target to generate assembly for a file
-0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.s
-.PHONY : 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.s
-
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.obj
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.i
@@ -230,7 +206,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.s
@@ -238,7 +214,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.obj
@@ -246,7 +222,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ec
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.i
@@ -254,7 +230,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ec
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.s
@@ -262,7 +238,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ec
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.obj
@@ -270,7 +246,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.i
@@ -278,7 +254,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.s
@@ -286,7 +262,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj
@@ -294,7 +270,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-r
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.i
@@ -302,7 +278,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-r
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.s
@@ -310,7 +286,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-r
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj
@@ -318,7 +294,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-r
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.i
@@ -326,7 +302,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-r
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.s
@@ -334,7 +310,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-r
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.obj
@@ -342,7 +318,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxm
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.i
@@ -350,7 +326,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxm
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.s
@@ -358,7 +334,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxm
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj
@@ -366,7 +342,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.i
@@ -374,7 +350,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.s
@@ -382,7 +358,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj
@@ -390,7 +366,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.i
@@ -398,7 +374,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.s
@@ -406,7 +382,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj
@@ -414,7 +390,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.i
@@ -422,7 +398,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.s
@@ -430,7 +406,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.obj
@@ -438,7 +414,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.obj:
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.i
@@ -446,7 +422,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.i: C
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.s
@@ -454,7 +430,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.s: C
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ad_parser.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.obj
@@ -462,7 +438,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.obj
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.i
@@ -470,7 +446,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.i: 
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.s
@@ -478,7 +454,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.s: 
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.obj
@@ -486,7 +462,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_uti
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.i
@@ -494,7 +470,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_uti
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.s
@@ -502,7 +478,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_uti
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_db_util.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.obj
@@ -510,7 +486,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispat
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.i
@@ -518,7 +494,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispat
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.s
@@ -526,7 +502,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispat
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_dispatch.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.obj
@@ -534,7 +510,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.i
@@ -542,7 +518,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.s
@@ -550,7 +526,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/att_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.obj
@@ -558,7 +534,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.i
@@ -566,7 +542,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.s
@@ -574,7 +550,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.obj
@@ -582,7 +558,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.i
@@ -590,7 +566,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.s
@@ -598,7 +574,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.obj
@@ -606,7 +582,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.i
@@ -614,7 +590,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.s
@@ -622,7 +598,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj
@@ -630,7 +606,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.i
@@ -638,7 +614,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.s
@@ -646,15 +622,39 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.s
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.obj
+
+# target to build an object file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.i
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.i
+
+# target to preprocess a source file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.i
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.i
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.s
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.s
+
+# target to generate assembly for a file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.s
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.obj
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.i
@@ -662,7 +662,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.s
@@ -670,7 +670,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.obj
@@ -678,7 +678,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.i
@@ -686,7 +686,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.s
@@ -694,7 +694,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj
@@ -702,7 +702,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.i
@@ -710,7 +710,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.s
@@ -718,7 +718,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.obj
@@ -726,7 +726,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.i
@@ -734,7 +734,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.s
@@ -742,7 +742,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.obj
@@ -750,7 +750,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.i
@@ -758,7 +758,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.s
@@ -766,7 +766,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj
@@ -774,7 +774,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.i
@@ -782,7 +782,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.s
@@ -790,7 +790,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj
@@ -798,7 +798,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.i
@@ -806,7 +806,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.s
@@ -814,7 +814,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-servi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.obj
@@ -822,7 +822,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_clien
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.i
@@ -830,7 +830,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_clien
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.s
@@ -838,7 +838,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_clien
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt_client.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.obj
@@ -846,7 +846,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.i
@@ -854,7 +854,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.s
@@ -862,7 +862,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.obj
@@ -870,7 +870,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.i
@@ -878,7 +878,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.s
@@ -886,7 +886,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.obj
@@ -894,7 +894,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.obj: C_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.i
@@ -902,7 +902,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.i: C_/U
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.s
@@ -910,7 +910,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.s: C_/U
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/sm.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.obj
@@ -918,7 +918,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.i
@@ -926,7 +926,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.s
@@ -934,7 +934,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_audio.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.obj
@@ -942,7 +942,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.i
@@ -950,7 +950,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.s
@@ -958,7 +958,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.obj
@@ -966,7 +966,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.i
@@ -974,7 +974,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.s
@@ -982,7 +982,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_crypto.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.obj
@@ -990,7 +990,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_pa
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.i
@@ -998,7 +998,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_pa
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.s
@@ -1006,7 +1006,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_pa
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_hid_parser.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.obj
@@ -1014,7 +1014,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.i
@@ -1022,7 +1022,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.s
@@ -1030,7 +1030,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_linked_list.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.obj
@@ -1038,7 +1038,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.i
@@ -1046,7 +1046,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.s
@@ -1054,7 +1054,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.obj
@@ -1062,7 +1062,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.i
@@ -1070,7 +1070,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.s
@@ -1078,7 +1078,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_memory_pool.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.obj
@@ -1086,7 +1086,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resamp
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.i
@@ -1094,7 +1094,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resamp
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.s
@@ -1102,7 +1102,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resamp
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_resample.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.obj
@@ -1110,7 +1110,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_b
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.i
@@ -1118,7 +1118,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_b
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.s
@@ -1126,7 +1126,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_b
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.obj
@@ -1134,7 +1134,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_lo
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.i
@@ -1142,7 +1142,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_lo
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.s
@@ -1150,7 +1150,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_lo
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.obj
@@ -1158,7 +1158,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_lo
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.i
@@ -1166,7 +1166,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_lo
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.s
@@ -1174,7 +1174,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_lo
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.obj
@@ -1182,7 +1182,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.o
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.i
@@ -1190,7 +1190,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.i
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.s
@@ -1198,7 +1198,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.s
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_slip.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.obj
@@ -1206,7 +1206,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.ob
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.i
@@ -1214,7 +1214,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.i:
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.s
@@ -1222,7 +1222,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.s:
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.obj
@@ -1230,7 +1230,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_no
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.i
@@ -1238,7 +1238,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_no
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.s
@@ -1246,7 +1246,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_no
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_tlv_none.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.obj
@@ -1254,7 +1254,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.o
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.i
@@ -1262,7 +1262,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.i
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.s
@@ -1270,7 +1270,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.s
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/btstack_util.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.obj
@@ -1278,7 +1278,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.o
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.i
@@ -1286,7 +1286,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.i
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.s
@@ -1294,7 +1294,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.s
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.obj
@@ -1302,7 +1302,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_s
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.i
@@ -1310,7 +1310,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_s
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.s
@@ -1318,7 +1318,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_s
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.obj
@@ -1326,7 +1326,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_s
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.i
@@ -1334,7 +1334,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_s
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.s
@@ -1342,7 +1342,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_s
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/a2dp_source.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.obj
@@ -1350,7 +1350,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.i
@@ -1358,7 +1358,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.s
@@ -1366,7 +1366,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.obj
@@ -1374,7 +1374,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.i
@@ -1382,7 +1382,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.s
@@ -1390,7 +1390,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.obj
@@ -1398,7 +1398,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.i
@@ -1406,7 +1406,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.s
@@ -1414,7 +1414,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.obj
@@ -1422,7 +1422,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.i
@@ -1430,7 +1430,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.s
@@ -1438,7 +1438,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.obj
@@ -1446,7 +1446,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.i
@@ -1454,7 +1454,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.s
@@ -1462,7 +1462,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_source.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.obj
@@ -1470,7 +1470,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.i
@@ -1478,7 +1478,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.s
@@ -1486,7 +1486,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avdtp_util.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.obj
@@ -1494,7 +1494,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.i
@@ -1502,7 +1502,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.s
@@ -1510,7 +1510,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.obj
@@ -1518,7 +1518,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.i
@@ -1526,7 +1526,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.s
@@ -1534,7 +1534,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.obj
@@ -1542,7 +1542,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.i
@@ -1550,7 +1550,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.s
@@ -1558,7 +1558,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.obj
@@ -1566,7 +1566,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.i
@@ -1574,7 +1574,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.s
@@ -1582,7 +1582,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.obj
@@ -1590,7 +1590,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.i
@@ -1598,7 +1598,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.s
@@ -1606,7 +1606,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.obj
@@ -1614,7 +1614,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.i
@@ -1622,7 +1622,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.s
@@ -1630,7 +1630,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.obj
@@ -1638,7 +1638,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.i
@@ -1646,7 +1646,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.s
@@ -1654,7 +1654,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.obj
@@ -1662,7 +1662,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.i
@@ -1670,7 +1670,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.s
@@ -1678,7 +1678,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/avrcp_target.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.obj
@@ -1686,7 +1686,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstac
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.i
@@ -1694,7 +1694,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstac
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.s
@@ -1702,7 +1702,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstac
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.obj
@@ -1710,7 +1710,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstac
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.i
@@ -1718,7 +1718,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstac
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.s
@@ -1726,7 +1726,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstac
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.obj
@@ -1734,7 +1734,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstac
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.i
@@ -1742,7 +1742,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstac
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.s
@@ -1750,7 +1750,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstac
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.obj
@@ -1758,7 +1758,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.i
@@ -1766,7 +1766,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.s
@@ -1774,7 +1774,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/device_id_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.obj
@@ -1782,7 +1782,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_s
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.i
@@ -1790,7 +1790,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_s
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.s
@@ -1798,7 +1798,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_s
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.obj
@@ -1806,7 +1806,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_c
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.i
@@ -1814,7 +1814,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_c
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.s
@@ -1822,7 +1822,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_c
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_client.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.obj
@@ -1830,7 +1830,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_s
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.i
@@ -1838,7 +1838,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_s
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.s
@@ -1846,7 +1846,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_s
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/goep_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.obj
@@ -1854,7 +1854,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.ob
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.i
@@ -1862,7 +1862,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.i:
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.s
@@ -1870,7 +1870,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.s:
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.obj
@@ -1878,7 +1878,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.i
@@ -1886,7 +1886,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.s
@@ -1894,7 +1894,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ag.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.obj
@@ -1902,7 +1902,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gs
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.i
@@ -1910,7 +1910,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gs
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.s
@@ -1918,7 +1918,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gs
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.obj
@@ -1926,7 +1926,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.i
@@ -1934,7 +1934,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.s
@@ -1942,7 +1942,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_hf.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.obj
@@ -1950,7 +1950,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ms
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.i
@@ -1958,7 +1958,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ms
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.s
@@ -1966,7 +1966,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_ms
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.obj
@@ -1974,7 +1974,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_de
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.i
@@ -1982,7 +1982,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_de
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.s
@@ -1990,7 +1990,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_de
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.obj
@@ -1998,7 +1998,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_ho
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.i
@@ -2006,7 +2006,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_ho
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.s
@@ -2014,7 +2014,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_ho
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hid_host.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.obj
@@ -2022,7 +2022,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.i
@@ -2030,7 +2030,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.s
@@ -2038,7 +2038,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_ag.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.obj
@@ -2046,7 +2046,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.i
@@ -2054,7 +2054,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.s
@@ -2062,7 +2062,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/hsp_hs.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.obj
@@ -2070,7 +2070,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_i
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.i
@@ -2078,7 +2078,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_i
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.s
@@ -2086,7 +2086,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_i
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_iterator.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.obj
@@ -2094,7 +2094,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_m
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.i
@@ -2102,7 +2102,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_m
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.s
@@ -2110,7 +2110,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_m
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.obj
@@ -2118,7 +2118,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_p
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.i
@@ -2126,7 +2126,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_p
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.s
@@ -2134,7 +2134,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_p
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/obex_parser.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.obj
@@ -2142,7 +2142,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.ob
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.i
@@ -2150,7 +2150,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.i:
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.s
@@ -2158,7 +2158,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.s:
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pan.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.obj
@@ -2166,7 +2166,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_c
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.i
@@ -2174,7 +2174,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_c
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.s
@@ -2182,7 +2182,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_c
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/pbap_client.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.obj
@@ -2190,7 +2190,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.i
@@ -2198,7 +2198,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.s
@@ -2206,7 +2206,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/rfcomm.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.obj
@@ -2214,7 +2214,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_cl
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.i
@@ -2222,7 +2222,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_cl
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.s
@@ -2230,7 +2230,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_cl
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.obj
@@ -2238,7 +2238,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_cl
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.i
@@ -2246,7 +2246,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_cl
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.s
@@ -2254,7 +2254,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_cl
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.obj
@@ -2262,7 +2262,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_se
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.i
@@ -2270,7 +2270,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_se
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.s
@@ -2278,7 +2278,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_se
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.obj
@@ -2286,7 +2286,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_ut
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.i
@@ -2294,7 +2294,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_ut
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.s
@@ -2302,7 +2302,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_ut
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/sdp_util.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.obj
@@ -2310,7 +2310,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_se
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.i
@@ -2318,7 +2318,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_se
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.s
@@ -2326,7 +2326,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_se
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/classic/spp_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.obj
@@ -2334,7 +2334,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.obj: C_/Us
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.i
@@ -2342,7 +2342,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.i: C_/User
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.s
@@ -2350,7 +2350,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.s: C_/User
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.obj
@@ -2358,7 +2358,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.obj: C
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.i
@@ -2366,7 +2366,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.i: C_/
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.s
@@ -2374,7 +2374,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.s: C_/
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_cmd.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.obj
@@ -2382,7 +2382,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.obj: 
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.i
@@ -2390,7 +2390,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.i: C_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.s
@@ -2398,7 +2398,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.s: C_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_dump.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.obj
@@ -2406,7 +2406,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.obj:
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.i
@@ -2414,7 +2414,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.i: C
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.s
@@ -2422,7 +2422,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.s: C
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/hci_event.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.obj
@@ -2430,7 +2430,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.obj: C_/
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.i
@@ -2438,7 +2438,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.i: C_/Us
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.s
@@ -2446,7 +2446,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.s: C_/Us
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.obj
@@ -2454,7 +2454,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signalin
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.i
@@ -2462,7 +2462,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signalin
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.s
@@ -2470,7 +2470,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signalin
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/l2cap_signaling.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj
@@ -2478,7 +2478,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-serv
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.i
@@ -2486,7 +2486,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-serv
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.s
@@ -2494,7 +2494,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-serv
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj
@@ -2502,7 +2502,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-serv
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.i
@@ -2510,7 +2510,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-serv
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.s
@@ -2518,7 +2518,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-serv
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
@@ -2526,7 +2526,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctr
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
@@ -2534,7 +2534,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctr
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
@@ -2542,7 +2542,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctr
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
@@ -2550,7 +2550,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
@@ -2558,7 +2558,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
@@ -2566,7 +2566,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
@@ -2574,7 +2574,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
@@ -2582,7 +2582,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
@@ -2590,7 +2590,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
@@ -2598,7 +2598,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_sta
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
@@ -2606,7 +2606,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_sta
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
@@ -2614,7 +2614,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_sta
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
@@ -2622,7 +2622,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/fami
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
@@ -2630,7 +2630,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/fami
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
@@ -2638,7 +2638,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/fami
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
@@ -2646,7 +2646,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/au
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -2654,7 +2654,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/au
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -2662,7 +2662,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/au
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
@@ -2670,7 +2670,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -2678,7 +2678,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -2686,7 +2686,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -2694,7 +2694,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -2702,7 +2702,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -2710,7 +2710,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -2718,7 +2718,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -2726,7 +2726,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -2734,7 +2734,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -2742,7 +2742,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -2750,7 +2750,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -2758,7 +2758,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -2766,7 +2766,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/mid
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -2774,7 +2774,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/mid
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -2782,7 +2782,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/mid
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -2790,7 +2790,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -2798,7 +2798,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -2806,7 +2806,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
@@ -2814,7 +2814,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -2822,7 +2822,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -2830,7 +2830,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
@@ -2838,7 +2838,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -2846,7 +2846,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -2854,7 +2854,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -2862,7 +2862,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/u
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -2870,7 +2870,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/u
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -2878,7 +2878,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/u
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -2886,7 +2886,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/v
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -2894,7 +2894,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/v
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -2902,7 +2902,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/v
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
@@ -2910,7 +2910,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/vi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -2918,7 +2918,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/vi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -2926,7 +2926,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/vi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
@@ -2934,7 +2934,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -2942,7 +2942,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -2950,7 +2950,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -2958,7 +2958,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.ob
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -2966,7 +2966,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.i:
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -2974,7 +2974,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.s:
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
@@ -2982,7 +2982,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_co
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -2990,7 +2990,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_co
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -2998,7 +2998,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_co
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
@@ -3006,7 +3006,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspb
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -3014,7 +3014,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspb
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -3022,7 +3022,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspb
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
@@ -3030,7 +3030,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspb
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -3038,7 +3038,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspb
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -3046,7 +3046,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspb
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.obj
@@ -3054,7 +3054,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.obj: C_/U
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -3062,7 +3062,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.i: C_/Use
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -3070,7 +3070,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.s: C_/Use
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -3078,7 +3078,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -3086,7 +3086,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -3094,7 +3094,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -3102,7 +3102,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -3110,7 +3110,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -3118,7 +3118,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -3126,7 +3126,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -3134,7 +3134,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.i: 
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -3142,7 +3142,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.s: 
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/mutex.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -3150,7 +3150,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.obj: 
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.i
@@ -3158,7 +3158,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.i: C_
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.s
@@ -3166,7 +3166,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.s: C_
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_sync/sem.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.obj
@@ -3174,7 +3174,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.obj:
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.i
@@ -3182,7 +3182,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.i: C
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.s
@@ -3190,7 +3190,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.s: C
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/time.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -3198,7 +3198,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_h
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -3206,7 +3206,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_h
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -3214,7 +3214,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_h
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -3222,7 +3222,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.i
@@ -3230,7 +3230,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.s
@@ -3238,7 +3238,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/datetime.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -3246,7 +3246,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.i
@@ -3254,7 +3254,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.i: 
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.s
@@ -3262,7 +3262,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.s: 
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/pheap.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.obj
@@ -3270,7 +3270,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.i
@@ -3278,7 +3278,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.i: 
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.s
@@ -3286,7 +3286,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.s: 
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/common/pico_util/queue.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -3294,7 +3294,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -3302,7 +3302,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -3310,7 +3310,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -3318,7 +3318,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -3326,7 +3326,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -3334,7 +3334,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_divider/divider.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -3342,7 +3342,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_divide
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
@@ -3350,7 +3350,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dm
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
@@ -3358,7 +3358,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dm
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
@@ -3366,7 +3366,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dm
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
@@ -3374,7 +3374,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_except
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
@@ -3382,7 +3382,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_except
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
@@ -3390,7 +3390,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_except
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
@@ -3398,7 +3398,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -3406,7 +3406,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -3414,7 +3414,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -3422,7 +3422,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/g
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -3430,7 +3430,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/g
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -3438,7 +3438,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/g
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -3446,7 +3446,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/ir
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -3454,7 +3454,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/ir
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -3462,7 +3462,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/ir
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -3470,7 +3470,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/ir
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
@@ -3478,7 +3478,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
@@ -3486,7 +3486,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
@@ -3494,7 +3494,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -3502,7 +3502,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pl
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -3510,7 +3510,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pl
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -3518,7 +3518,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pl
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -3526,7 +3526,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/s
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -3534,7 +3534,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/s
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -3542,7 +3542,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/s
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -3550,7 +3550,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -3558,7 +3558,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -3566,7 +3566,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -3574,7 +3574,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/u
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -3582,7 +3582,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/u
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -3590,7 +3590,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/u
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -3598,7 +3598,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/v
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -3606,7 +3606,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/v
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -3614,7 +3614,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/v
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -3622,7 +3622,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchd
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -3630,7 +3630,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchd
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -3638,7 +3638,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchd
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -3646,7 +3646,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/x
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -3654,7 +3654,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/x
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -3662,7 +3662,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/x
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
@@ -3670,7 +3670,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_cont
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
@@ -3678,7 +3678,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_cont
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
@@ -3686,15 +3686,39 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_cont
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
+
+# target to build an object file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+
+# target to preprocess a source file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+
+# target to generate assembly for a file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -3702,7 +3726,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bo
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -3710,7 +3734,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bo
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -3718,7 +3742,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bo
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj
@@ -3726,7 +3750,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/bt
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.i
@@ -3734,7 +3758,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/bt
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.s
@@ -3742,7 +3766,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/bt
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj
@@ -3750,7 +3774,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/bt
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.i
@@ -3758,7 +3782,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/bt
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.s
@@ -3766,7 +3790,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/bt
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj
@@ -3774,7 +3798,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/bt
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.i
@@ -3782,7 +3806,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/bt
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.s
@@ -3790,7 +3814,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/bt
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
@@ -3798,7 +3822,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
@@ -3806,7 +3830,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
@@ -3814,7 +3838,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
@@ -3822,7 +3846,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
@@ -3830,7 +3854,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
@@ -3838,7 +3862,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
@@ -3846,7 +3870,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
@@ -3854,7 +3878,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
@@ -3862,7 +3886,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
@@ -3870,7 +3894,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
@@ -3878,7 +3902,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
@@ -3886,7 +3910,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj
@@ -3894,7 +3918,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.i
@@ -3902,7 +3926,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.s
@@ -3910,7 +3934,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj
@@ -3918,7 +3942,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.i
@@ -3926,7 +3950,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.s
@@ -3934,7 +3958,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj
@@ -3942,7 +3966,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.i
@@ -3950,7 +3974,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.s
@@ -3958,7 +3982,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
@@ -3966,7 +3990,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
@@ -3974,7 +3998,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
@@ -3982,15 +4006,39 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
+
+# target to build an object file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+
+# target to preprocess a source file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+
+# target to generate assembly for a file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
@@ -3998,7 +4046,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
@@ -4006,7 +4054,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
@@ -4014,7 +4062,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
@@ -4022,7 +4070,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
@@ -4030,7 +4078,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driv
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_divider/divider.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -4038,7 +4086,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_divider/di
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -4046,7 +4094,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/dou
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -4054,7 +4102,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/dou
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -4062,7 +4110,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/dou
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -4070,7 +4118,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/dou
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -4078,7 +4126,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/dou
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -4086,7 +4134,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/dou
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -4094,7 +4142,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/dou
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -4102,15 +4150,39 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/dou
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.obj
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.i
@@ -4118,7 +4190,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flas
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.s
@@ -4126,7 +4198,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flas
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -4134,7 +4206,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/floa
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -4142,7 +4214,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/floa
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -4150,7 +4222,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/floa
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -4158,7 +4230,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/floa
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -4166,7 +4238,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/floa
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -4174,7 +4246,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/floa
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -4182,7 +4254,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/floa
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -4190,7 +4262,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/floa
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -4198,7 +4270,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_int64_ops/
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -4206,7 +4278,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pic
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -4214,7 +4286,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pic
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -4222,7 +4294,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pic
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -4230,7 +4302,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_mem_ops/me
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
@@ -4238,7 +4310,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
@@ -4246,7 +4318,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
@@ -4254,7 +4326,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -4262,7 +4334,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/p
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -4270,7 +4342,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/p
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -4278,7 +4350,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/p
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -4286,7 +4358,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/pri
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -4294,7 +4366,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/pri
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -4302,7 +4374,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/pri
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -4310,7 +4382,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/ru
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -4318,7 +4390,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/ru
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -4326,7 +4398,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/ru
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -4334,7 +4406,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_l
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -4342,7 +4414,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_l
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -4350,7 +4422,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_l
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -4358,7 +4430,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_l
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -4366,7 +4438,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_l
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -4374,7 +4446,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_l
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -4382,7 +4454,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_l
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -4390,7 +4462,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdi
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -4398,7 +4470,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdi
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -4406,7 +4478,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdi
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -4414,7 +4486,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/std
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -4422,7 +4494,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/std
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -4430,7 +4502,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/std
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
@@ -4438,7 +4510,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/
 
 # target to build an object file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -4446,7 +4518,7 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/
 
 # target to preprocess a source file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -4454,87 +4526,15 @@ C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/
 
 # target to generate assembly for a file
 C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
-
-# target to build an object file
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
-
-# target to preprocess a source file
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
-
-# target to generate assembly for a file
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
-
-# target to build an object file
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
-
-# target to preprocess a source file
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
-
-# target to generate assembly for a file
-d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-
-e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
-
-# target to build an object file
-e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-
-e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
-
-# target to preprocess a source file
-e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
-
-# target to generate assembly for a file
-e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/main.c.obj
 .PHONY : src/main.c.obj
 
 src/main.i: src/main.c.i
@@ -4542,7 +4542,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -4550,7 +4550,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 src/pico_switch_platform.obj: src/pico_switch_platform.c.obj
@@ -4558,7 +4558,7 @@ src/pico_switch_platform.obj: src/pico_switch_platform.c.obj
 
 # target to build an object file
 src/pico_switch_platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/pico_switch_platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/pico_switch_platform.c.obj
 .PHONY : src/pico_switch_platform.c.obj
 
 src/pico_switch_platform.i: src/pico_switch_platform.c.i
@@ -4566,7 +4566,7 @@ src/pico_switch_platform.i: src/pico_switch_platform.c.i
 
 # target to preprocess a source file
 src/pico_switch_platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/pico_switch_platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/pico_switch_platform.c.i
 .PHONY : src/pico_switch_platform.c.i
 
 src/pico_switch_platform.s: src/pico_switch_platform.c.s
@@ -4574,7 +4574,7 @@ src/pico_switch_platform.s: src/pico_switch_platform.c.s
 
 # target to generate assembly for a file
 src/pico_switch_platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/pico_switch_platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/pico_switch_platform.c.s
 .PHONY : src/pico_switch_platform.c.s
 
 src/report.obj: src/report.c.obj
@@ -4582,7 +4582,7 @@ src/report.obj: src/report.c.obj
 
 # target to build an object file
 src/report.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/report.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/report.c.obj
 .PHONY : src/report.c.obj
 
 src/report.i: src/report.c.i
@@ -4590,7 +4590,7 @@ src/report.i: src/report.c.i
 
 # target to preprocess a source file
 src/report.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/report.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/report.c.i
 .PHONY : src/report.c.i
 
 src/report.s: src/report.c.s
@@ -4598,7 +4598,7 @@ src/report.s: src/report.c.s
 
 # target to generate assembly for a file
 src/report.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/report.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/report.c.s
 .PHONY : src/report.c.s
 
 src/usb.obj: src/usb.c.obj
@@ -4606,7 +4606,7 @@ src/usb.obj: src/usb.c.obj
 
 # target to build an object file
 src/usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/usb.c.obj
 .PHONY : src/usb.c.obj
 
 src/usb.i: src/usb.c.i
@@ -4614,7 +4614,7 @@ src/usb.i: src/usb.c.i
 
 # target to preprocess a source file
 src/usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/usb.c.i
 .PHONY : src/usb.c.i
 
 src/usb.s: src/usb.c.s
@@ -4622,7 +4622,7 @@ src/usb.s: src/usb.c.s
 
 # target to generate assembly for a file
 src/usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/usb.c.s
 .PHONY : src/usb.c.s
 
 src/usb_descriptors.obj: src/usb_descriptors.c.obj
@@ -4630,7 +4630,7 @@ src/usb_descriptors.obj: src/usb_descriptors.c.obj
 
 # target to build an object file
 src/usb_descriptors.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/usb_descriptors.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/usb_descriptors.c.obj
 .PHONY : src/usb_descriptors.c.obj
 
 src/usb_descriptors.i: src/usb_descriptors.c.i
@@ -4638,7 +4638,7 @@ src/usb_descriptors.i: src/usb_descriptors.c.i
 
 # target to preprocess a source file
 src/usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/usb_descriptors.c.i
 .PHONY : src/usb_descriptors.c.i
 
 src/usb_descriptors.s: src/usb_descriptors.c.s
@@ -4646,7 +4646,7 @@ src/usb_descriptors.s: src/usb_descriptors.c.s
 
 # target to generate assembly for a file
 src/usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\KeyboardSwitch.dir\build.make CMakeFiles/KeyboardSwitch.dir/src/usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SwitchKMAdapter.dir\build.make CMakeFiles/SwitchKMAdapter.dir/src/usb_descriptors.c.s
 .PHONY : src/usb_descriptors.c.s
 
 # Help Target
@@ -4660,12 +4660,9 @@ help:
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
-	@echo ... KeyboardSwitch
+	@echo ... SwitchKMAdapter
 	@echo ... bluepad32
 	@echo ... bs2_default
-	@echo ... 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.obj
-	@echo ... 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.i
-	@echo ... 0c9accdab58fc5c93a4392ba88a93938/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.s
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.obj
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.i
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/3rd-party/md5/md5.s
@@ -4720,6 +4717,9 @@ help:
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.obj
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.i
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.s
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.obj
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.i
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.s
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.obj
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.i
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.s
@@ -5100,6 +5100,9 @@ help:
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
@@ -5137,6 +5140,9 @@ help:
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
@@ -5152,6 +5158,9 @@ help:
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.i
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_math.s
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.obj
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.i
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_flash/flash.s
@@ -5196,15 +5205,6 @@ help:
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/Users/Tejas/Documents/Pico-v1.5.1/sdk/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
-	@echo ... d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
-	@echo ... d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
-	@echo ... d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
-	@echo ... d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
-	@echo ... d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
-	@echo ... d4ec0b5be3a4fdb1b89e1cdbbbe0489d/sdk/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
-	@echo ... e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
-	@echo ... e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
-	@echo ... e8a3796e85faf7a61e0a8d806bd91d8c/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

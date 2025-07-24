@@ -18,7 +18,7 @@ set(BLUEPAD32_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/bluepad32)
 # To use it from Bluepad32 (up-to-date, with custom patches for controllers):
 set(BTSTACK_ROOT ${BLUEPAD32_ROOT}/external/btstack)
 
-project(KeyboardSwitch C CXX ASM)
+project(SwitchKMAdapter C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
@@ -26,18 +26,18 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
 file(GLOB_RECURSE SOURCES "src/*.c")
-add_executable(KeyboardSwitch ${SOURCES})
+add_executable(SwitchKMAdapter ${SOURCES})
 
-target_include_directories(KeyboardSwitch PRIVATE
+target_include_directories(SwitchKMAdapter PRIVATE
     src
     bluepad32/src/components/bluepad32/include)
 include_directories(include)
 
 # Needed for btstack_config.h / sdkconfig.h
 # so that libblupad32 can include them
-include_directories(KeyboardSwitch src)
+include_directories(SwitchKMAdapter src)
 
-target_link_libraries(KeyboardSwitch
+target_link_libraries(SwitchKMAdapter
     pico_stdlib
     pico_cyw43_arch_none
     pico_btstack_classic
@@ -50,8 +50,8 @@ target_link_libraries(KeyboardSwitch
 
 add_subdirectory(bluepad32/src/components/bluepad32 libbluepad32)
 
-pico_enable_stdio_usb(KeyboardSwitch 0)
-pico_enable_stdio_uart(KeyboardSwitch 0)
+pico_enable_stdio_usb(SwitchKMAdapter 0)
+pico_enable_stdio_uart(SwitchKMAdapter 0)
 
 # create map/bin/hex/uf2 file in addition to ELF.
-pico_add_extra_outputs(KeyboardSwitch)
+pico_add_extra_outputs(SwitchKMAdapter)
