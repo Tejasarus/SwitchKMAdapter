@@ -1,6 +1,8 @@
 # SwitchKMAdapter
 Turns a Raspberry Pi Pico W into a Bluetooth keyboard and mouse adapter for the original Nintendo Switch and Nintendo Switch 2.
 
+[Video](https://www.youtube.com/watch?v=kLLIgxpmcA8&)
+
 [List of known supported keyboards](https://bluepad32.readthedocs.io/en/latest/supported_keyboards/)
 
 [List of known supported mice](https://bluepad32.readthedocs.io/en/latest/supported_mice/)
